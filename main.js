@@ -37,3 +37,10 @@ const elizabeth = {
     missionStatement:" ",
     registerToVote: " ",
 }
+
+function changeDistrict ( districtName) {
+    elizabeth.district = districtName;
+    console.log (elizabeth.district);
+}
+
+changeDistrict( "4th");
