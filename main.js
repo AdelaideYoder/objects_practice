@@ -112,3 +112,16 @@ var newPerson = {
 }
 
 version2 (0, newPerson);
+
+
+
+// advanced challenge -------------------------------------------------------
+
+let lizArticle = document.createElement("article")
+lizArticle.setAttribute("id", elizabeth.district)
+
+const divRef = document.querySelector("#content-container")
+divRef.appendChild(lizArticle)
+
+
+
